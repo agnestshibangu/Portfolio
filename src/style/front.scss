@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 .front-end-projects-title {
-    color: #fedc9f;
     text-transform: uppercase;
-    font-family: 'Orbitron', sans-serif;
     font-size: 20px;
     letter-spacing: 0.5rem;
 }
 
+.front-end-projects-title, .project-description, .project-title {
+    color: #fedc9f;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
 .front-end-projects-section {
     margin-top: 500px;
 }
+
+.project-image {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
