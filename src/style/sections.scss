@@ -6,8 +6,9 @@
 
 .front-end-projects-title {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 35px;
     letter-spacing: 0.5rem;
+    text-align: end;
 }
 
 .front-end-projects-title, .project-description, .project-title {
@@ -15,7 +16,17 @@
     font-family: 'Orbitron', sans-serif;
 }
 
+.project-infos {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; 
+}
 
+
+
+.project-display-container {
+    margin-top: 150px;
+}
 
 .project-image {
     width: 600px;

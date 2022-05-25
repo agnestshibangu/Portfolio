@@ -26,6 +26,8 @@ export default function LandingPage() {
 
       <div className='top-page'>
 
+
+
         <div className="name-presentation-box">
           <div className="letter-container">
             <div className='first-name group-name'>
@@ -50,22 +52,44 @@ export default function LandingPage() {
 
           </div>
           <div className="description-box">
-            <p className="job-description">front-end &amp; graphic design</p>
             <div className='underscore-animated' />
+            <p className="job-description">front-end &amp; graphic design</p>
+
           </div>
 
 
         </div>
 
+        <div className='vertical-box'>
+
+          <div className='vertical-line' />
+
+          <div className='vertical-line-round round1' />
+          <div className='vertical-line-round round2' />
+          {/* } <div className='vertical-line-round round3' />
+          <div className='vertical-line-round round4' />
+          <div className='vertical-line-round round5' />
+          <div className='vertical-line-round round6' /> */}
+
+        </div>
+
       </div>
 
-      <Reactproject />
 
-      <Front />
+      <div className='main'>
+        
+        <Reactproject />
 
-      <Backendproject />
+        <Front />
 
-      <Artisticproject />
+        <Backendproject />
+
+        <Artisticproject />
+
+
+      </div>
+
+
 
 
 

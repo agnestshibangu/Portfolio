@@ -4,6 +4,51 @@
     margin: 0 50px;
 }
 
+
+.top-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vertical-box {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 100px;
+    height: 1500vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical-line {
+    z-index: 999;
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color: #fedc9f;
+
+}
+
+.vertical-line-round {
+    width: 100px;
+    height: 100px;
+    background-color: #fedc9f;
+    border-radius: 50%;
+}
+
+.round1 {
+    margin-top: 265px;
+}
+
+.round2 {
+    margin-top: 490px;
+}
+
+
+
+
 .letter {
     width: 40px;
     height: 40px;
@@ -67,6 +112,7 @@
     animation: underscore 1s linear;
     animation-iteration-count: infinite;
     animation-delay: 2s;
+    margin-right: 10px;
 }
 
 @keyframes underscore {
@@ -90,6 +136,15 @@
     margin-top: 300px;
 }
 
+
+/// main /// 
+
+.main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 
 /// letters animation ///
