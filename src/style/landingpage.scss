@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+.page-body {
+    margin: 0 50px;
+}
+
 .letter {
     width: 40px;
     height: 40px;
@@ -10,7 +14,11 @@
     margin-right: 5px;
 }
 
-.letterContainer {
+// .name-presentation-box {
+//     margin-left: 50px;
+// }
+
+.letter-container {
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -80,7 +88,6 @@
     width: fit-content;
     height: fit-content;
     margin-top: 300px;
-    margin-left: 100px;
 }
 
 
@@ -117,10 +124,26 @@ $anim-delay : 0.2s;
 
  /////////////// responsive ////////////////////
 
- @media (max-width: 340px) {
+
+
+@media (max-width: 768px) {
+
+    .name-presentation-box  {
+        margin-left: 0;
+    }
+   
+
+    .name-presentation-box {
+        margin: 300px auto 0px;
+    }
+    
+    .letter-container {
+        margin: 0 auto;
+    }
+
     .letter {
-        width: 14px;
-        height: 14px;
+        width: 15px;
+        height: 15px;
         margin-right: 5px;
     }
 
@@ -128,12 +151,46 @@ $anim-delay : 0.2s;
         margin-right: 1.6px;
     }
 
+    .job-description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .underscore-animated {
+        display: none
+    }
+
+    .last-name {
+        margin-left: 15px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+   
+
     .name-presentation-box {
-        margin-left: 20px;
+        margin: 300px auto 0px;
+    }
+    
+    .letter-container {
+        margin: 0 auto;
+    }
+
+    .letter {
+        width: 12px;
+        height: 12px;
+        margin-right: 4px;
+    }
+
+    .letter-i, .letter-h {
+        margin-right: 1.6px;
     }
 
     .job-description {
-        font-size: 5px;
+        font-size: 8px;
+        text-align: center;
     }
 
     .underscore-animated {
@@ -144,8 +201,6 @@ $anim-delay : 0.2s;
         margin-left: 15px;
     }
 }
-
-
 
 
 

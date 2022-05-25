@@ -18,12 +18,12 @@ import Front from '../Components/Front'
 export default function LandingPage() {
   return (
 
-    <div>
+    <div className='page-body'>
 
       <div className='top-page'>
 
         <div className="name-presentation-box">
-          <div className="letterContainer">
+          <div className="letter-container">
             <div className='first-name group-name'>
               <img alt="" src={LetterA} className="letter anim-14" />
               <img alt="" src={LetterG} className="letter anim-13" />
