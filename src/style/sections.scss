@@ -18,18 +18,34 @@
 
 .project-infos {
     display: flex; 
-    flex-direction: column; 
+    margin-top: 150px;
     align-items: flex-end; 
 }
 
 
 
 .project-display-container {
-    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .project-image {
     width: 600px;
     height: 300px;
     object-fit: cover;
+}
+
+.projects-infos-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projects-infos-right {
+    text-align: end;
+}
+
+.project-description {
+    max-width: 700px;
 }
