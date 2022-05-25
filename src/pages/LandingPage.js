@@ -39,7 +39,7 @@ export default function LandingPage() {
         </div>
       
       </div>
-      <div className='description-box'>
+      <div className="description-box">
         <p className="job-description">front-end &amp; graphic design</p> 
         <div className='underscore-animated' />
       </div>
