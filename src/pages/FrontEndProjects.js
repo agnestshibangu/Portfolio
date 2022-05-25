@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function FrontEndProjects() {
+function FrontEndProjects() {
   return (
-    <h1>FrontEndProjects</h1>
+    <div>FrontEndProjects</div>
   )
 }
+
+export default FrontEndProjects

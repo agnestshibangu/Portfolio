@@ -15,7 +15,6 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
-    
 }
 
 .last-name {
@@ -36,12 +35,10 @@
 @keyframes description  {
     0% {
         opacity: 0;
-      //  transform: translate(-300px);
     }
   
     100% {
         opacity: 100% ;
-      //  transform: translate(0px);
     }
 }
 
@@ -116,6 +113,37 @@ $anim-delay : 0.2s;
          animation-delay: $anim-delay*$i;
    }
  }
+
+
+ /////////////// responsive ////////////////////
+
+ @media (max-width: 340px) {
+    .letter {
+        width: 14px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    .letter-i, .letter-h {
+        margin-right: 1.6px;
+    }
+
+    .name-presentation-box {
+        margin-left: 20px;
+    }
+
+    .job-description {
+        font-size: 5px;
+    }
+
+    .underscore-animated {
+        display: none
+    }
+
+    .last-name {
+        margin-left: 15px;
+    }
+}
 
 
 
