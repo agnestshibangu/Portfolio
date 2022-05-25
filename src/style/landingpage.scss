@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.letter {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.letter-i, .letter-h {
+    margin-right: 5px;
+}
+
+.letterContainer {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+.last-name {
+    margin-left: 30px;
+}
+
+
+.group-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-box {
+    display: flex;
+}
+
+.job-description {
+    font-family: 'Orbitron', sans-serif;
+    color: #fedc9f;
+    letter-spacing: 0.5rem;
+}
+
+.underscore-animated {
+    width: 14px;
+    height: 1.8px;
+    background-color: #fedc9f;
+    margin-top: 31px;
+    animation: underscore 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes underscore {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 50%;
+    }
+    30% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 100% ;
+    }
+}
+
+
+.name-presentation-box {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+/// letters animation ///
+
+@keyframes block-disp1  {
+    from {
+      // transform: translate(-3000px);
+        transform: scale(0);
+     }
+    
+     to {
+     //  transform: translate(0px);
+       transform: scale(1); 
+      }
+    }
+
+
+.letter {
+    animation: block-disp1 1.2s both; 
+}
+
+
+
+$anim-delay : 0.2s;
+
+ @for $i from 1 through 14 {
+     .anim-#{$i} {
+         animation-delay: $anim-delay*$i;
+   }
+ }
+
+
+
+
+
