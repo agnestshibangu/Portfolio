@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/front.scss'
+import '../style/sections.scss'
 //import projects from '../Components/data';
 import reserviaImg from './images/projectsscreen/capture-reservia.PNG'
 import ohmyfoodImg from './images/projectsscreen/capture-ohmyfood.PNG'
@@ -7,7 +8,7 @@ import lachouetteagenceImg from './images/projectsscreen/capture-la-chouette-age
 
 function Front() {
     return (
-        <div className='front-end-projects-section'>
+        <div className='section'>
             <h2 className='front-end-projects-title'>Front-end projects</h2>
 
             {/* DYNAMIC WAY

@@ -13,6 +13,10 @@ import LetterNreversegradient from '../Components/images/landingpage/letterNreve
 import LetterU from '../Components/images/landingpage/letterU.svg'
 import '../style/landingpage.scss'
 import Front from '../Components/Front'
+import Reactproject from '../Components/Reactproject'
+import Backendproject from '../Components/Backendproject'
+import Artisticproject from '../Components/Artisticproject'
+
 
 
 export default function LandingPage() {
@@ -53,11 +57,17 @@ export default function LandingPage() {
 
         </div>
 
-
-
       </div>
 
+      <Reactproject />
+
       <Front />
+
+      <Backendproject />
+
+      <Artisticproject />
+
+
 
     </div>
 
