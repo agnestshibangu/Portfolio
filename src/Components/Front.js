@@ -9,7 +9,7 @@ import lachouetteagenceImg from './images/projectsscreen/capture-la-chouette-age
 function Front() {
     return (
         <div className='section'>
-            <h2 className='front-end-projects-title'>Front-end projects</h2>
+            <h2 className='front-end-projects-title'>Projets HTML, CSS et JS</h2>
 
             {/* DYNAMIC WAY
             
@@ -28,13 +28,13 @@ function Front() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://reservia-project1-agnes-tshibangu.netlify.app/"><button className='button button-website'>Full website here</button></a>
-                        <a href="https://reservia-project1-agnes-tshibangu.netlify.app/"><button className='button'>View code</button></a>
+                        <a href="https://reservia-project1-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
+                        <a href="https://github.com/agnestshibangu/Reservia-integration-P2"><button className='button'>Voir le code</button></a>
 
                     </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>project 1 : reservia</h3>
+                        <h3 className='project-title'>reservia</h3>
                         <p className='project-description'>projet d'integration HTML et CSS</p>
                         <img className='project-image' src={reserviaImg} alt="" />
                     </div>
@@ -45,8 +45,8 @@ function Front() {
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://ohmyfood-project2-agnes-tshibangu.netlify.app/"><button className='button button-website'>Full website here</button></a>
-                        <a href="https://ohmyfood-project2-agnes-tshibangu.netlify.app/"><button className='button'>View code</button></a>
+                        <a href="https://ohmyfood-project2-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
+                        <a href="https://github.com/agnestshibangu/Animations-app-restauration-P3"><button className='button'>Voir le code</button></a>
 
                     </div>
 
@@ -65,8 +65,8 @@ function Front() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://la-chouette-agence-seo-p4.netlify.app"><button className='button button-website'>Full website here</button></a>
-                        <a href="https://la-chouette-agence-seo-p4.netlify.app"><button className='button'>View code</button></a>
+                        <a href="https://la-chouette-agence-seo-p4.netlify.app"><button className='button button-website'>Voir le site web</button></a>
+                        <a href="https://github.com/agnestshibangu/La-chouette-agence-SEO-P4"><button className='button'>View code</button></a>
 
                     </div>
 
