@@ -41,6 +41,7 @@
     flex-direction: column;
     justify-content: space-around;
     width: 200px;
+    align-items: center;
 }
 
 .projects-infos-right {
@@ -54,4 +55,19 @@
 .project-infos-offset {
     flex-direction: row-reverse;
     margin-right: 25%;
+}
+
+
+.button {
+    background: none;
+    border: 1px solid #fedc9f ;
+    font-family: 'Orbitron', sans-serif;
+    color: #fedc9f;
+    height: 5vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-website {
+    margin-bottom: 50px;
 }

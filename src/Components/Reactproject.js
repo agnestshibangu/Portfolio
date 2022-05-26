@@ -17,8 +17,8 @@ function Reactproject() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://art-shop-agnes-tshibangu.netlify.app/"><button >Full website here</button></a>
-                        <a href="https://art-shop-agnes-tshibangu.netlify.app/"><button >Full website here</button></a>
+                        <a href="https://art-shop-agnes-tshibangu.netlify.app/"><button className='button button-website'>Full website here</button></a>
+                        <a href="https://art-shop-agnes-tshibangu.netlify.app/"><button className='button'>View code</button></a>
 
                     </div>
 
@@ -34,9 +34,9 @@ function Reactproject() {
 
                 <div className='project-infos project-infos-offset'>
 
-                    <div className='projects-infos-left'>
-                        <a href="https://groupomania-social-network-p7.netlify.app/login"><button >Full website here</button></a>
-                        <a href="https://groupomania-social-network-p7.netlify.app/login"><button >Full website here</button></a>
+                    <div className='projects-infos-left projects-infos-left-offset'>
+                        <a href="https://groupomania-social-network-p7.netlify.app/login"><button className='button button-website'>Full website here</button></a>
+                        <a href="https://groupomania-social-network-p7.netlify.app/login"><button className='button'>View code</button></a>
 
                     </div>
 
@@ -52,8 +52,8 @@ function Reactproject() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://primeur-bio-agnes-tshibangu.netlify.app/"><button >Full website here</button></a>
-                        <a href="https://primeur-bio-agnes-tshibangu.netlify.app/"><button >Full website here</button></a>
+                        <a href="https://primeur-bio-agnes-tshibangu.netlify.app/"><button className='button button-website'>Full website here</button></a>
+                        <a href="https://primeur-bio-agnes-tshibangu.netlify.app/"><button className='button'>View code</button></a>
 
                     </div>
 
