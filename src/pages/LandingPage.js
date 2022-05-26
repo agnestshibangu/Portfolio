@@ -15,7 +15,7 @@ import '../style/landingpage.scss'
 import Front from '../Components/Front'
 import Reactproject from '../Components/Reactproject'
 import Artisticprojects from '../Components/Artisticprojects'
-import Aboutme from '../Components/Aboutme'
+// import Aboutme from '../Components/Aboutme'
 
 
 
@@ -83,7 +83,7 @@ export default function LandingPage() {
 
         <Artisticprojects />
 
-        <Aboutme />
+        {/* <Aboutme /> */}
 
        
           

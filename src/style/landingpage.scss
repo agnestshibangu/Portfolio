@@ -43,19 +43,19 @@
 }
 
 .round2 {
-    margin-top: 530px;
+    margin-top: 380px;
 }
 
 .round3 {
-    margin-top: 2155px;
+    margin-top: 2005px;
 }
 
 .round4 {
-    margin-top: 2710px;
+    margin-top: 2555px;
 }
 
 .round5 {
-    margin-top: 735px;
+    margin-top: 586px;
 }
 
 
@@ -67,7 +67,8 @@
     margin-right: 15px;
 }
 
-.letter-i, .letter-h {
+.letter-i,
+.letter-h {
     margin-right: 5px;
 }
 
@@ -97,13 +98,13 @@
     animation: description 2s ease-in-out;
 }
 
-@keyframes description  {
+@keyframes description {
     0% {
         opacity: 0;
     }
-  
+
     100% {
-        opacity: 100% ;
+        opacity: 100%;
     }
 }
 
@@ -131,14 +132,17 @@
     0% {
         opacity: 0;
     }
+
     25% {
         opacity: 50%;
     }
+
     30% {
         opacity: 100%;
     }
+
     100% {
-        opacity: 100% ;
+        opacity: 100%;
     }
 }
 
@@ -161,49 +165,90 @@
 
 /// letters animation ///
 
-@keyframes block-disp1  {
+@keyframes block-disp1 {
     from {
-      // transform: translate(-3000px);
+        // transform: translate(-3000px);
         transform: scale(0);
-     }
-    
-     to {
-     //  transform: translate(0px);
-       transform: scale(1); 
-      }
     }
+
+    to {
+        //  transform: translate(0px);
+        transform: scale(1);
+    }
+}
 
 
 .letter {
-    animation: block-disp1 1.2s both; 
+    animation: block-disp1 1.2s both;
 }
 
 
 
 $anim-delay : 0.2s;
 
- @for $i from 1 through 14 {
-     .anim-#{$i} {
-         animation-delay: $anim-delay*$i;
-   }
- }
+@for $i from 1 through 14 {
+    .anim-#{$i} {
+        animation-delay: $anim-delay*$i;
+    }
+}
 
 
- /////////////// responsive ////////////////////
+/////////////// responsive ////////////////////
+
+
+@media (max-width: 1370px) {
+    .vertical-box {
+        left: 85%;
+    }
+
+    .main {
+        margin-left: 6vh;
+    }
+}
+
+
+
+
+@media (max-width: 1020px) {
+    .main {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .vertical-box {
+        display: none;
+    }
+
+    .letter-container {
+        flex-direction: column;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 
 
 
 @media (max-width: 768px) {
 
-    .name-presentation-box  {
+    .main {
+        width: 100%;
+    }
+
+    .name-presentation-box {
         margin-left: 0;
     }
-   
+
 
     .name-presentation-box {
         margin: 300px auto 0px;
     }
-    
+
     .letter-container {
         margin: 0 auto;
     }
@@ -214,7 +259,8 @@ $anim-delay : 0.2s;
         margin-right: 5px;
     }
 
-    .letter-i, .letter-h {
+    .letter-i,
+    .letter-h {
         margin-right: 1.6px;
     }
 
@@ -235,12 +281,12 @@ $anim-delay : 0.2s;
 
 
 @media (max-width: 425px) {
-   
+
 
     .name-presentation-box {
         margin: 300px auto 0px;
     }
-    
+
     .letter-container {
         margin: 0 auto;
     }
@@ -251,7 +297,8 @@ $anim-delay : 0.2s;
         margin-right: 4px;
     }
 
-    .letter-i, .letter-h {
+    .letter-i,
+    .letter-h {
         margin-right: 1.6px;
     }
 
@@ -267,7 +314,8 @@ $anim-delay : 0.2s;
     .last-name {
         margin-left: 15px;
     }
+
+    .page-body {
+        margin-top: auto;
+    }
 }
-
-
-

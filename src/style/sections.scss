@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 .section {
-    margin-top: 500px;
+    margin-top: 350px;
 }
 
 .front-end-projects-title {
@@ -31,7 +31,7 @@
 }
 
 .project-image {
-    width: 600px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 20px;
@@ -71,4 +71,44 @@
 
 .button-website {
     margin-bottom: 50px;
+}
+
+
+@media (max-width: 1300px) {
+   .project-infos-offset {
+        margin-right: 0%;
+   }
+}
+
+@media (max-width: 1020px) {
+    .project-infos {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .projects-infos-left {
+        width: 100%;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+
+    .name-presentation-box {
+        margin: 300px auto 0px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .projects-infos-left {
+        align-items: center;
+    }
+
+    .button {
+        width: 50vw;
+    }
+
+    .projects-infos-right {
+        text-align: center;
+    }
 }
