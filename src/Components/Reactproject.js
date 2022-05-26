@@ -52,13 +52,13 @@ function Reactproject() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://primeur-bio-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://primeur-bio-agnes-tshibangu.netlify.app/"><button className='button'>Voir le code</button></a>
+                        <a href="https://lucky-bonbon-ea7a19.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
+                        <a href="https://github.com/agnestshibangu/REACT-EXO-PA"><button className='button'>Voir le code</button></a>
 
                     </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>primeur bie</h3>
+                        <h3 className='project-title'>primeur bio</h3>
                         <p className='project-description'>site vitrine pour un primeur bio</p>
                         <img className='project-image' src={primeurbioImg} alt="" />
                     </div>

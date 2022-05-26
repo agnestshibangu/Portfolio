@@ -5,6 +5,7 @@ import '../style/sections.scss'
 import reserviaImg from './images/projectsscreen/capture-reservia.PNG'
 import ohmyfoodImg from './images/projectsscreen/capture-ohmyfood.PNG'
 import lachouetteagenceImg from './images/projectsscreen/capture-la-chouette-agence.PNG'
+import orinocoImg from './images/projectsscreen/capture-orinoco.PNG'
 
 function Front() {
     return (
@@ -52,7 +53,7 @@ function Front() {
 
                     <div className='projects-infos-right'>
                         <h3 className='project-title'>ohmyfood</h3>
-                        <p className='project-description'>ohmyfood</p>
+                        <p className='project-description'>projet d'integration HTML, SCSS et animations</p>
                         <img className='project-image' src={ohmyfoodImg} alt="" />
                     </div>
 
@@ -72,8 +73,24 @@ function Front() {
 
                     <div className='projects-infos-right'>
                         <h3 className='project-title'>la chouette agence</h3>
-                        <p className='project-description'>site vitrine pour un primeur bio</p>
+                        <p className='project-description'>optimiser le référencement SEO d'un site existant</p>
                         <img className='project-image' src={lachouetteagenceImg} alt="" />
+                    </div>
+
+
+                </div>
+
+                <div className='project-infos project-infos-offset'>
+
+                    <div className='projects-infos-left projects-infos-left-offset'>
+                        <a href="https://github.com/agnestshibangu/Orinoco-camera-shop-P5"><button className='button'>Voir le code</button></a>
+
+                    </div>
+
+                    <div className='projects-infos-right'>
+                        <h3 className='project-title'>orinoco</h3>
+                        <p className='project-description'>site de e-commerce en JS</p>
+                        <img className='project-image' src={orinocoImg} alt="" />
                     </div>
 
 
