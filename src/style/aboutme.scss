@@ -1,0 +1,25 @@
+.about-me-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 60px;
+}
+
+.section-about-me {
+    display: flex;
+   
+    flex-direction: column;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.about-me-info {
+    max-width: 30%;
+    text-align: end;
+    margin-top: 60px;
+}

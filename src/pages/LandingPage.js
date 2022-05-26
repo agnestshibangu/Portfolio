@@ -14,8 +14,8 @@ import LetterU from '../Components/images/landingpage/letterU.svg'
 import '../style/landingpage.scss'
 import Front from '../Components/Front'
 import Reactproject from '../Components/Reactproject'
-import Backendproject from '../Components/Backendproject'
-import Artisticproject from '../Components/Artisticproject'
+import Artisticprojects from '../Components/Artisticprojects'
+import Aboutme from '../Components/Aboutme'
 
 
 
@@ -67,9 +67,8 @@ export default function LandingPage() {
           <div className='vertical-line-round round1' />
           <div className='vertical-line-round round2' />
            <div className='vertical-line-round round3' />
-         {/* <div className='vertical-line-round round4' />
-          <div className='vertical-line-round round5' />
-          <div className='vertical-line-round round6' /> */}
+         <div className='vertical-line-round round4' />
+         
 
         </div>
 
@@ -82,11 +81,14 @@ export default function LandingPage() {
 
         <Front />
 
-        <Backendproject />
+        <Artisticprojects />
 
-        <Artisticproject />
+        <Aboutme />
 
-
+       
+          
+     
+     
       </div>
 
 
