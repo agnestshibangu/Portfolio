@@ -43,7 +43,7 @@ function Front() {
                 </div>
 
 
-                <div className='project-infos'>
+                <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left'>
                         <a href="https://ohmyfood-project2-agnes-tshibangu.netlify.app/"><button >Full website here</button></a>

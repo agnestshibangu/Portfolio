@@ -32,7 +32,7 @@ function Reactproject() {
                 </div>
 
 
-                <div className='project-infos'>
+                <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left'>
                         <a href="https://groupomania-social-network-p7.netlify.app/login"><button >Full website here</button></a>

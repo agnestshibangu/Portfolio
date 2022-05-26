@@ -66,8 +66,8 @@ export default function LandingPage() {
 
           <div className='vertical-line-round round1' />
           <div className='vertical-line-round round2' />
-          {/* } <div className='vertical-line-round round3' />
-          <div className='vertical-line-round round4' />
+           <div className='vertical-line-round round3' />
+         {/* <div className='vertical-line-round round4' />
           <div className='vertical-line-round round5' />
           <div className='vertical-line-round round6' /> */}
 
@@ -77,7 +77,7 @@ export default function LandingPage() {
 
 
       <div className='main'>
-        
+
         <Reactproject />
 
         <Front />
