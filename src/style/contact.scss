@@ -1,0 +1,55 @@
+.section-contact-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 0.5rem;
+    text-align: end;
+    color: #fedc9f;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+.contact-info, .telephone, .email, .small-text-contact {
+    color: #fedc9f;
+    font-family: 'Orbitron', sans-serif;
+    overflow-wrap: break-word;
+    max-width: 80%;
+}
+
+
+
+.contact-boxes {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-box {
+    width: 30%;
+    min-height: 20vh;
+    background-color: black;
+    border: 2px solid #fedc9f ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (max-width: 768px) {
+
+    .contact-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-box{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .contact-box:first-child {
+        margin-top: 0;
+    }
+}

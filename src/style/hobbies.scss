@@ -5,10 +5,15 @@
     border-radius: 20px;
 }
 
+.hobbies-group-flex-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 .section-hobbies {
-    display: flex;
-   width: 100%;
+   display: flex;
+   width: 60%;
    justify-content: space-between; 
    margin-top: 60px;
 }

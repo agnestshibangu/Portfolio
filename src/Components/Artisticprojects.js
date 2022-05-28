@@ -7,7 +7,7 @@ import '../style/hobbies.scss'
 
 function Artisticprojects() {
   return (
-    <div className='section'>
+    <div className='section hobbies-group-flex-end'>
     <h2 className='front-end-projects-title'>hobbies</h2>
 
 

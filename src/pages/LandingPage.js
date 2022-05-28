@@ -14,8 +14,41 @@ import LetterU from '../Components/images/landingpage/letterU.svg'
 import '../style/landingpage.scss'
 import Front from '../Components/Front'
 import Reactproject from '../Components/Reactproject'
-import Artisticprojects from '../Components/Artisticprojects'
-// import Aboutme from '../Components/Aboutme'
+// import Artisticprojects from '../Components/Artisticprojects'
+import Contact from '../Components/Contact'
+
+
+
+// scroll bar animation //
+
+const scrollProgressElement = document.querySelector("#scroll-progress");
+
+function scrollProgress() {
+  const totalheightOfWebPAge = document.body.scrollHeight; 
+  const currentDistanceFromTop = document.documentElement.scrollTop;
+
+  const windowHeight = document.documentElement.clientHeight;
+
+  const scrolledPercentage = 
+  (currentDistanceFromTop / (totalheightOfWebPAge - windowHeight )) * 100; 
+
+  scrollProgressElement.style.width = Math.round(scrolledPercentage) + '%';
+
+}
+
+document.addEventListener("scroll", scrollProgress); 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -24,8 +57,16 @@ export default function LandingPage() {
 
     <div className='page-body'>
 
+           {/* scroll bar animation */}
+
+      <div class="scroll-progress" id="scroll-progress"></div>
+      
+      
+
+
       <div className='top-page'>
 
+    
 
 
         <div className="name-presentation-box">
@@ -65,9 +106,9 @@ export default function LandingPage() {
           <div className='vertical-line' />
 
           <div className='vertical-line-round round1' />
-          <div className='vertical-line-round round2' />
-           <div className='vertical-line-round round3' />
-         <div className='vertical-line-round round4' />
+          <div className='vertical-line-round  round2' />
+           <div className='vertical-line-round  round3' />
+         <div className='vertical-line-round  round4' />
          <div className='vertical-line-round round5' />
 
         </div>
@@ -80,10 +121,10 @@ export default function LandingPage() {
         <Reactproject />
 
         <Front />
-
-        <Artisticprojects />
-
-        {/* <Aboutme /> */}
+{/* 
+        <Artisticprojects /> */}
+ 
+        <Contact />
 
        
           

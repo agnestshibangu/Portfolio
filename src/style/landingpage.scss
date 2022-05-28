@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+#scrollPath {
+    position: fixed;
+    top: 0; 
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+
+#scroll-progress {
+    width: 0;
+    background-color: #fedc9f;   
+    height: 10px;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    border-radius: 10px;
+}
+
+
 .page-body {
     margin: 0 50px;
 }
-
 
 .top-page {
     display: flex;
@@ -273,8 +293,22 @@ $anim-delay : 0.2s;
         display: none
     }
 
+    // .last-name {
+    //     margin-left: 15px;
+    // }
+
+    .letter-container {
+        align-items: center;
+    }
+
     .last-name {
-        margin-left: 15px;
+        margin-left: 0;
+        margin-top: 5px;
+
+    }
+
+    .first-name {
+        width: 100%;
     }
 
 }
@@ -311,15 +345,13 @@ $anim-delay : 0.2s;
         display: none
     }
 
-    .last-name {
-        margin-left: 15px;
-    }
+    // .last-name {
+    //     margin-left: 15px;
+    // }
 
     .page-body {
         margin-top: auto;
     }
 
-    .main {
-            /* align-items: center;*/
-    }
+  
 }
