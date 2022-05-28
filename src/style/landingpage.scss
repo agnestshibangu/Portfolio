@@ -76,7 +76,22 @@
 .active {
     transform: scale(1.5);
     transition: all 0.5s ease-in;
+    animation: active-round 2s ease-in-out infinite alternate;
 }
+
+@keyframes active-round {
+    0% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+
+
 
 .unactive {
     transform: scale(1);
