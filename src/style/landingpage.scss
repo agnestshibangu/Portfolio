@@ -14,6 +14,7 @@
 }
 
 
+
 .page-body {
     margin: 0 50px;
 }
@@ -45,32 +46,42 @@
 }
 
 .vertical-line-round {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-color: #fedc9f;
     border-radius: 50%;
+    
 }
 
 .round1 {
-    margin-top: 265px;
+    margin-top: 280px;
 }
 
 .round2 {
-    margin-top: 380px;
+    margin-top: 395px;
 }
 
 .round3 {
-    margin-top: 2005px;
+    margin-top: 2037px;
 }
 
 .round4 {
-    margin-top: 2555px;
+    margin-top: 2585px;
 }
 
 .round5 {
-    margin-top: 586px;
+    margin-top: 600px;
 }
 
+.active {
+    transform: scale(1.5);
+    transition: all 0.5s ease-in;
+}
+
+.unactive {
+    transform: scale(1);
+    transition: all 0.5s ease-in;
+}
 
 
 

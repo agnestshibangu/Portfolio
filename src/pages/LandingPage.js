@@ -52,8 +52,11 @@ function reveal(){
 
     if(revealtop < windowheight - revealpoint) {
       reveals[i].classList.add('active');
+      reveals[i].classList.remove('unactive');
     } else {
       reveals[i].classList.remove('active');
+      reveals[i].classList.add('unactive');
+      
     }
 
   }
