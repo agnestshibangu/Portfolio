@@ -21,23 +21,44 @@ import Contact from '../Components/Contact'
 
 // scroll bar animation //
 
-const scrollProgressElement = document.querySelector("#scroll-progress");
+// const scrollProgressElement = document.querySelector("#scroll-progress");
 
-function scrollProgress() {
-  const totalheightOfWebPAge = document.body.scrollHeight; 
-  const currentDistanceFromTop = document.documentElement.scrollTop;
+// function scrollProgress() {
+//   const totalheightOfWebPAge = document.body.scrollHeight; 
+//   const currentDistanceFromTop = document.documentElement.scrollTop;
 
-  const windowHeight = document.documentElement.clientHeight;
+//   const windowHeight = document.documentElement.clientHeight;
 
-  const scrolledPercentage = 
-  (currentDistanceFromTop / (totalheightOfWebPAge - windowHeight )) * 100; 
+//   const scrolledPercentage = 
+//   (currentDistanceFromTop / (totalheightOfWebPAge - windowHeight )) * 100; 
 
-  scrollProgressElement.style.width = Math.round(scrolledPercentage) + '%';
+//   scrollProgressElement.style.width = Math.round(scrolledPercentage) + '%';
+
+// }
+
+
+// document.addEventListener("scroll", scrollProgress);
+
+
+window.addEventListener('scroll', reveal);
+
+function reveal(){
+  let reveals = document.querySelectorAll('.reveal');
+
+  for (let i = 0; i < reveals.length; i++) {
+    let windowheight = window.innerHeight;
+    let revealtop = reveals[i].getBoundingClientRect().top;
+    let revealpoint = 150;
+
+    if(revealtop < windowheight - revealpoint) {
+      reveals[i].classList.add('active');
+    } else {
+      reveals[i].classList.remove('active');
+    }
+
+  }
 
 }
-
-document.addEventListener("scroll", scrollProgress); 
-
 
 
 
@@ -59,7 +80,7 @@ export default function LandingPage() {
 
            {/* scroll bar animation */}
 
-      <div class="scroll-progress" id="scroll-progress"></div>
+      {/* <div class="scroll-progress" id="scroll-progress"></div> */}
       
       
 
@@ -105,11 +126,11 @@ export default function LandingPage() {
 
           <div className='vertical-line' />
 
-          <div className='vertical-line-round round1' />
-          <div className='vertical-line-round  round2' />
-           <div className='vertical-line-round  round3' />
-         <div className='vertical-line-round  round4' />
-         <div className='vertical-line-round round5' />
+          <div className='vertical-line-round reveal round1' />
+          <div className='vertical-line-round reveal round2' />
+           <div className='vertical-line-round reveal round3' />
+         <div className='vertical-line-round reveal round4' />
+         <div className='vertical-line-round reveal round5' />
 
         </div>
 
