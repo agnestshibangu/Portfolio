@@ -21,23 +21,25 @@ import Contact from '../Components/Contact'
 
 // scroll bar animation //
 
-// const scrollProgressElement = document.querySelector("#scroll-progress");
+const scrollProgressElement = document.querySelector("#scroll-progress");
 
-// function scrollProgress() {
-//   const totalheightOfWebPAge = document.body.scrollHeight; 
-//   const currentDistanceFromTop = document.documentElement.scrollTop;
+function scrollProgress() {
+  const totalheightOfWebPAge = document.body.scrollHeight; 
+  const currentDistanceFromTop = document.documentElement.scrollTop;
 
-//   const windowHeight = document.documentElement.clientHeight;
+  const windowHeight = document.documentElement.clientHeight;
 
-//   const scrolledPercentage = 
-//   (currentDistanceFromTop / (totalheightOfWebPAge - windowHeight )) * 100; 
+  const scrolledPercentage = 
+  (currentDistanceFromTop / (totalheightOfWebPAge - windowHeight )) * 100; 
 
-//   scrollProgressElement.style.width = Math.round(scrolledPercentage) + '%';
+  scrollProgressElement.style.width = Math.round(scrolledPercentage) + '%';
 
-// }
+}
 
 
-// document.addEventListener("scroll", scrollProgress);
+document.addEventListener("scroll", scrollProgress);
+
+// rounds animation //
 
 
 window.addEventListener('scroll', reveal);
@@ -71,7 +73,7 @@ export default function LandingPage() {
 
            {/* scroll bar animation */}
 
-      {/* <div class="scroll-progress" id="scroll-progress"></div> */}
+      <div class="scroll-progress" id="scroll-progress"></div> 
       
       
 
