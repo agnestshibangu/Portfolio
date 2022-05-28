@@ -17,6 +17,7 @@
 
 .page-body {
     margin: 0 50px;
+    margin-bottom: 300px;
 }
 
 .top-page {
@@ -29,7 +30,7 @@
     top: 0;
     left: 80%;
     width: 100px;
-    height: 1500vh;
+    height: 958vh;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -370,6 +371,7 @@ $anim-delay : 0.2s;
 
     .page-body {
         margin-top: auto;
+        
     }
 
   

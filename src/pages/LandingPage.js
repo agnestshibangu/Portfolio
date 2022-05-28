@@ -64,18 +64,6 @@ function reveal(){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 export default function LandingPage() {
   return (
 
@@ -131,9 +119,9 @@ export default function LandingPage() {
 
           <div className='vertical-line-round reveal round1' />
           <div className='vertical-line-round reveal round2' />
-           <div className='vertical-line-round reveal round3' />
-         <div className='vertical-line-round reveal round4' />
-         <div className='vertical-line-round reveal round5' />
+          <div className='vertical-line-round reveal round3' />
+          <div className='vertical-line-round reveal round4' />
+        
 
         </div>
 
