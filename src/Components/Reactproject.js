@@ -35,7 +35,6 @@ function Reactproject() {
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://groupomania-social-network-p7.netlify.app/login"><button className='button button-website'>Voir le site web</button></a>
                         <a href="https://github.com/agnestshibangu/Groupomania-social-network-P7"><button className='button'>Voir le code</button></a>
 
                     </div>
@@ -49,7 +48,7 @@ function Reactproject() {
 
                 </div>
 
-                <div className='project-infos'>
+                {/* <div className='project-infos'>
 
                     <div className='projects-infos-left'>
                         <a href="https://lucky-bonbon-ea7a19.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
@@ -64,7 +63,7 @@ function Reactproject() {
                     </div>
 
 
-                </div>
+                </div> */}
 
             </div>
 
