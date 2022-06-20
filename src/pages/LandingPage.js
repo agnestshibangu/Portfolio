@@ -36,7 +36,6 @@ function scrollProgress() {
 
 }
 
-
 document.addEventListener("scroll", scrollProgress);
 
 // rounds animation //

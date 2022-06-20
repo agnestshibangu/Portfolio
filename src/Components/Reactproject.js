@@ -17,7 +17,7 @@ function Reactproject() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://art-shop-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
+                        <a href="https://art-shop-jessica-woods.netlify.app"><button className='button button-website'>Voir le site web</button></a>
                         <a href="https://github.com/agnestshibangu/art-shop"><button className='button'>Voir le code</button></a>
 
                     </div>
