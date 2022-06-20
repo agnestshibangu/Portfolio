@@ -2,10 +2,10 @@ import React from 'react'
 import '../style/front.scss'
 import '../style/sections.scss'
 //import projects from '../Components/data';
-import reserviaImg from './images/projectsscreen/capture-reservia.PNG'
-import ohmyfoodImg from './images/projectsscreen/capture-ohmyfood.PNG'
-import lachouetteagenceImg from './images/projectsscreen/capture-la-chouette-agence.PNG'
-import orinocoImg from './images/projectsscreen/capture-orinoco.PNG'
+import reserviaImg from './images/projectsscreen/capture-reservia-opt.webp'
+import ohmyfoodImg from './images/projectsscreen/capture-ohmyfood-opt.webp'
+import lachouetteagenceImg from './images/projectsscreen/capture-la-chouette-agence-opt.webp'
+import orinocoImg from './images/projectsscreen/capture-orinoco-opt.webp'
 
 function Front() {
     return (

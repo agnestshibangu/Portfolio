@@ -1,8 +1,8 @@
 import React from 'react'
 import '../style/sections.scss'
-import ecommerceImg from './images/projectsscreen/capture-e-commerce.PNG'
-import groupomaniaImg from './images/projectsscreen/capture-groupomania.PNG'
-import primeurbioImg from './images/projectsscreen/capture-primeur-bio.PNG'
+import ecommerceImg from './images/projectsscreen/capture-e-commerce-opt.webp'
+import groupomaniaImg from './images/projectsscreen/capture-groupomania-opt.webp'
+import primeurbioImg from './images/projectsscreen/capture-primeur-bio-opt.webp'
 
 
 function Reactproject() {
