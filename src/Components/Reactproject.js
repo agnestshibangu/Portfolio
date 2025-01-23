@@ -38,7 +38,7 @@ function Reactproject() {
 
                     <div className='projects-infos-right'>
                         <h3 className='project-title'>42_philosophers</h3>
-                        <p className='project-description'>solving the classic synchronization problem whith multiple processes</p>
+                        <p className='project-description'>synchronization whith multiple processes</p>
                         <img className='project-image' src={philoImg} alt="" />
                     </div>
 
