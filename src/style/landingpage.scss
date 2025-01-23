@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 
-
 #scroll-progress {
     width: 0;
-    background-color: hotpink;   
+    background-color: #fedc9f;   
     height: 10px;
     position: fixed;
     top: 0; 
     left: 0;
-    border-radius: 10px;
     z-index: 999;
 }
-
-
 
 .page-body {
     margin: 0 50px;
@@ -92,15 +88,10 @@
     }
 }
 
-
-
-
-
 .unactive {
     transform: scale(1);
     transition: all 0.5s ease-in;
 }
-
 
 
 .letter {

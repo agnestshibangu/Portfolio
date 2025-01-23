@@ -5,7 +5,6 @@ import LetterN from '../Components/images/landingpage/letterN.svg'
 import LetterE from '../Components/images/landingpage/letterE.svg'
 import LetterS from '../Components/images/landingpage/letterS.svg'
 import LetterT from '../Components/images/landingpage/letterT.svg'
-import LetterSgradient from '../Components/images/landingpage/letterSgradient.svg'
 import LetterH from '../Components/images/landingpage/letterH.svg'
 import LetterI from '../Components/images/landingpage/letterI.svg'
 import LetterB from '../Components/images/landingpage/letterB.svg'
@@ -94,12 +93,12 @@ export default function LandingPage() {
 
             <div className='last-name group-name'>
               <img alt="" src={LetterT} className="letter anim-9" />
-              <img alt="" src={LetterSgradient} className="letter anim-8" />
+              <img alt="" src={LetterS} className="letter anim-8" />
               <img alt="" src={LetterH} className="letter letter-h anim-7" />
               <img alt="" src={LetterI} className="letter letter-i anim-6" />
               <img alt="" src={LetterB} className="letter anim-5" />
               <img alt="" src={LetterA} className="letter anim-4" />
-              <img alt="" src={LetterNreversegradient} className="letter anim-3" />
+              <img alt="" src={LetterN} className="letter anim-3" />
               <img alt="" src={LetterG} className="letter anim-2" />
               <img alt="" src={LetterU} className="letter anim-1" />
             </div>
@@ -107,7 +106,7 @@ export default function LandingPage() {
           </div>
           <div className="description-box">
             <div className='underscore-animated' />
-            <p className="job-description">front-end &amp; graphic design</p>
+            <p className="job-description">Tech driven career portfolio</p>
 
           </div>
 
@@ -134,32 +133,14 @@ export default function LandingPage() {
         <Reactproject />
 
         <Front />
-{/* 
-        <Artisticprojects /> */}
+ 
+        {/* <Artisticprojects /> */}
  
         <Contact />
 
-       
-          
-     
-     
       </div>
 
-
-
-
-
     </div>
-
-
-
-
-
-
-
-
-
-
 
   )
 }

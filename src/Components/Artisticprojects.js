@@ -25,12 +25,7 @@ function Artisticprojects() {
             <p className='description-hobby project-description'>dessin vectoriel, A. Illustrator</p>
         </div>
 
-
     </div>
-
-
-
-
 
     </div>
   )

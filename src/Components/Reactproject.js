@@ -1,7 +1,8 @@
 import React from 'react'
 import '../style/sections.scss'
-import ecommerceImg from './images/projectsscreen/capture-e-commerce-opt.webp'
-import groupomaniaImg from './images/projectsscreen/capture-groupomania-opt.webp'
+import minishellImg from './images/projectsscreen/screenshotminishell.png'
+import philoImg from './images/projectsscreen/screenshotphilosophers.png'
+import cub3dGif from './images/projectsscreen/cub3d.gif';
 // import primeurbioImg from './images/projectsscreen/capture-primeur-bio-opt.webp'
 
 
@@ -9,7 +10,7 @@ function Reactproject() {
     return (
         <div className='section'>
 
-            <h2 className='front-end-projects-title'>projets react</h2>
+            <h2 className='front-end-projects-title'>42 School projects</h2>
 
 
             <div className='project-display-container'>
@@ -17,53 +18,45 @@ function Reactproject() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://art-shop-agnes-tshibangu.netlify.app"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://github.com/agnestshibangu/art-shop"><button className='button'>Voir le code</button></a>
+                       {/* <a href="https://art-shop-agnes-tshibangu.netlify.app"><button className='button button-website'>Voir le site web</button></a>  */}
+                        <a href="https://github.com/agnestshibangu/42_minishell"><button className='button'>See the code</button></a>
 
                     </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>e-commerce</h3>
-                        <p className='project-description'>un site de e-commerce en REACT</p>
-                        <img className='project-image' src={ecommerceImg} alt="" />
+                        <h3 className='project-title'>42_minishell</h3>
+                        <p className='project-description'>a program that recreates shell behaviors</p>
+                        <img className='project-image' src={minishellImg} alt="" />
                     </div>
-
-
-                </div>
-
+                </div> 
 
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://github.com/agnestshibangu/Groupomania-social-network-P7"><button className='button'>Voir le code</button></a>
-
-                    </div>
+                        <a href="https://github.com/agnestshibangu/42_philosophers"><button className='button'>See the code</button></a>
+                </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>groupomania</h3>
-                        <p className='project-description'>un réseau social en REACT</p>
-                        <img className='project-image' src={groupomaniaImg} alt="" />
+                        <h3 className='project-title'>42_philosophers</h3>
+                        <p className='project-description'>solving the classic synchronization problem whith multiple processes</p>
+                        <img className='project-image' src={philoImg} alt="" />
                     </div>
 
 
                 </div>
 
-                {/* <div className='project-infos'>
+                <div className='project-infos'>
 
-                    <div className='projects-infos-left'>
-                        <a href="https://lucky-bonbon-ea7a19.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://github.com/agnestshibangu/REACT-EXO-PA"><button className='button'>Voir le code</button></a>
+                <div className='projects-infos-left'>
+                    <a href="https://github.com/agnestshibangu/42_minishell"><button className='button'>See the code</button></a>
+                </div>
 
-                    </div>
-
-                    <div className='projects-infos-right'>
-                        <h3 className='project-title'>primeur bio</h3>
-                        <p className='project-description'>site vitrine pour un primeur bio</p>
-                        <img className='project-image' src={primeurbioImg} alt="" />
-                    </div>
-
-
-                </div> */}
+                <div className='projects-infos-right'>
+                    <h3 className='project-title'>42_philosopher</h3>
+                    <p className='project-description'>a 3D game using the raycasting technique</p>
+                    <img className='project-image' src={cub3dGif} alt="" />
+                </div>
+                </div> 
 
             </div>
 

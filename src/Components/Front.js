@@ -10,7 +10,7 @@ import orinocoImg from './images/projectsscreen/capture-orinoco-opt.webp'
 function Front() {
     return (
         <div className='section'>
-            <h2 className='front-end-projects-title'>Projets HTML, CSS et JS</h2>
+            <h2 className='front-end-projects-title'>Open Classrooms projects</h2>
 
             {/* DYNAMIC WAY
             
