@@ -12,7 +12,6 @@ import LetterU from '../Components/images/landingpage/letterU.svg'
 import '../style/landingpage.scss'
 import Front from '../Components/Front'
 import Reactproject from '../Components/Reactproject'
-// import Artisticprojects from '../Components/Artisticprojects'
 import Contact from '../Components/Contact'
 
 
