@@ -26,7 +26,7 @@ function Reactproject() {
                     <div className='projects-infos-right'>
                         <h3 className='project-title'>42_minishell</h3>
                         <p className='project-description'>a program that recreates shell behaviors</p>
-                        <img className='project-image' src={minishellImg} alt="" />
+                        <img className='project-image' src={cub3dGif} alt="" />
                     </div>
                 </div> 
 
@@ -48,7 +48,7 @@ function Reactproject() {
                 <div className='project-infos'>
 
                 <div className='projects-infos-left'>
-                    <a href="https://github.com/agnestshibangu/42_minishell"><button className='button'>See the code</button></a>
+                    <a href="https://github.com/agnestshibangu/42_cub3d"><button className='button'>See the code</button></a>
                 </div>
 
                 <div className='projects-infos-right'>
