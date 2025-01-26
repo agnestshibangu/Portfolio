@@ -49,7 +49,7 @@ function Reactproject() {
                 </div>
 
                 <div className='projects-infos-right'>
-                    <h3 className='project-title'>42_philosopher</h3>
+                    <h3 className='project-title'>42_cub3D</h3>
                     <p className='project-description'>a 3D game using the raycasting technique</p>
                     <img className='project-image' src={cub3dGif} alt="" />
                 </div>
