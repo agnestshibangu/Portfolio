@@ -26,7 +26,7 @@ function Reactproject() {
                     <div className='projects-infos-right'>
                         <h3 className='project-title'>42_minishell</h3>
                         <p className='project-description'>a program that recreates shell behaviors</p>
-                        <img className='project-image' src={cub3dGif} alt="" />
+                        <img className='project-image' src={minishellImg} alt="" />
                     </div>
                 </div> 
 

@@ -18,7 +18,7 @@ function Contact() {
 
         <div className='contact-box'><p className="small-text-contact">feel free to reach out - I would love to welcome the opportunity to leverage my back-end expertise to contribute to your team !  🚀 </p></div>
         <div className='contact-box'><p className="telephone">06.45.59.89.36</p></div>
-        <div className='contact-box'><p className="email">agnes.tshibangugrillon@gmail.com</p></div>
+        <div className='contact-box'><p className="email">agtshiba@student.42perpignan.fr</p></div>
           
       </div>
 
