@@ -3,7 +3,6 @@ import '../style/sections.scss'
 import minishellImg from './images/projectsscreen/screenshotminishell.png'
 import philoImg from './images/projectsscreen/screenshotphilosophers.png'
 import cub3dGif from './images/projectsscreen/cub3d.gif';
-// import primeurbioImg from './images/projectsscreen/capture-primeur-bio-opt.webp'
 
 
 function Reactproject() {
@@ -18,9 +17,7 @@ function Reactproject() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                       {/* <a href="https://art-shop-agnes-tshibangu.netlify.app"><button className='button button-website'>Voir le site web</button></a>  */}
                         <a href="https://github.com/agnestshibangu/42_minishell"><button className='button'>See the code</button></a>
-
                     </div>
 
                     <div className='projects-infos-right'>
