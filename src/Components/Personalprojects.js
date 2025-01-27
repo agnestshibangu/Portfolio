@@ -14,8 +14,7 @@ function Personalprojects() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://reservia-project1-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://github.com/agnestshibangu/Reservia-integration-P2"><button className='button'>Voir le code</button></a>
+                        <a href="https://github.com/agnestshibangu/personal_project_my_own_crypto"><button className='button'>View the code</button></a>
 
                     </div>
 
@@ -31,8 +30,7 @@ function Personalprojects() {
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://ohmyfood-project2-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://github.com/agnestshibangu/Animations-app-restauration-P3"><button className='button'>Voir le code</button></a>
+                        <a href="https://github.com/agnestshibangu/personal_project_AI_fraud_detection"><button className='button'>View the code</button></a>
 
                     </div>
 

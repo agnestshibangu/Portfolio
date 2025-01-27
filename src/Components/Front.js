@@ -17,8 +17,7 @@ function Front() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://reservia-project1-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://github.com/agnestshibangu/Reservia-integration-P2"><button className='button'>Voir le code</button></a>
+                        <a href="https://github.com/agnestshibangu/OCR_WEB_P6_API"><button className='button'>View the code</button></a>
 
                     </div>
 
@@ -33,8 +32,7 @@ function Front() {
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://ohmyfood-project2-agnes-tshibangu.netlify.app/"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://github.com/agnestshibangu/Animations-app-restauration-P3"><button className='button'>Voir le code</button></a>
+                        <a href="https://github.com/agnestshibangu/OCR_WEB_P7_social_network"><button className='button'>View the code</button></a>
 
                     </div>
 
@@ -49,8 +47,7 @@ function Front() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://la-chouette-agence-seo-p4.netlify.app"><button className='button button-website'>Voir le site web</button></a>
-                        <a href="https://github.com/agnestshibangu/La-chouette-agence-SEO-P4"><button className='button'>View code</button></a>
+                        <a href="https://github.com/agnestshibangu/OCR_PY_P4_chess_tour_organizer"><button className='button'>View the code</button></a>
 
                     </div>
 
@@ -65,7 +62,7 @@ function Front() {
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://github.com/agnestshibangu/Orinoco-camera-shop-P5"><button className='button'>Voir le code</button></a>
+                        <a href="https://github.com/agnestshibangu/OCR_PY_P7_algorithmes"><button className='button'>View the code</button></a>
 
                     </div>
 
