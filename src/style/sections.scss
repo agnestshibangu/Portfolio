@@ -120,12 +120,20 @@
         margin-bottom: 20px;
     }
 
+    .project-description {
+        text-align: center;
+        word-wrap: break-word;
+        max-width: 100%;
+        font-size: 10px;
+    }
+
     .project-display-container {
         align-items: center;
     }
     .front-end-projects-title
     {
         text-align: center;
+        font-size: 25px;
     }
 
     .project-image {
