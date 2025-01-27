@@ -13,7 +13,7 @@ import '../style/landingpage.scss'
 import Front from '../Components/Front'
 import Reactproject from '../Components/Reactproject'
 import Contact from '../Components/Contact'
-
+import Personalprojects from '../Components/Personalprojects'
 
 
 // scroll bar animation //
@@ -71,13 +71,7 @@ export default function LandingPage() {
 
       <div class="scroll-progress" id="scroll-progress"></div> 
       
-      
-
-
       <div className='top-page'>
-
-    
-
 
         <div className="name-presentation-box">
           <div className="letter-container">
@@ -133,6 +127,7 @@ export default function LandingPage() {
         <Front />
  
         {/* <Artisticprojects /> */}
+        <Personalprojects />
  
         <Contact />
 

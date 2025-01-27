@@ -12,10 +12,7 @@ function Aboutme() {
       <img className='about-me-photo' src={Photolinkedin}></img>
        <p className='about-me-info project-description'>Passionnée par tout qui touche au web, à l'informatique et au design, je conçois avec soin le design de mes sites afin d'offrir à l'utilisateur une experience unique</p>
     </div>
-
-   
-
-
+    
     </div>
   )
 }

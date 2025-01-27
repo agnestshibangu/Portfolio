@@ -33,9 +33,11 @@
 
 .project-image {
     height: 300px;
-    border-radius: 20px;
-    object-fit: contain;
-    width: 95%;
+    max-width : 500px;
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    // width: 95%;
 }
 
 .projects-infos-left {
@@ -61,7 +63,6 @@
 
 
 .button {
-    width: 50vw;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -115,9 +116,20 @@
         align-items: center;
     }
 
+    .button-website {
+        margin-bottom: 20px;
+    }
+
+    .project-display-container {
+        align-items: center;
+    }
+    .front-end-projects-title
+    {
+        text-align: center;
+    }
 
     .project-image {
-        height: 40vh;
+        border-radius: 0px;
     }
 
     .button {

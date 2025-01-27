@@ -2,27 +2,15 @@ import React from 'react'
 import '../style/front.scss'
 import '../style/sections.scss'
 //import projects from '../Components/data';
-import reserviaImg from './images/projectsscreen/capture-reservia-opt.webp'
-import ohmyfoodImg from './images/projectsscreen/capture-ohmyfood-opt.webp'
-import lachouetteagenceImg from './images/projectsscreen/capture-la-chouette-agence-opt.webp'
-import orinocoImg from './images/projectsscreen/capture-orinoco-opt.webp'
+import apiImg from './images/projectsscreen/hot_takes_XL.webp'
+import pythontourImg from './images/projectsscreen/screenshotpythontour.png'
+import snentrepriseImg from './images/projectsscreen/capture-groupomania.PNG'
+import algoImg from './images/projectsscreen/optialgo.png'
 
 function Front() {
     return (
         <div className='section'>
             <h2 className='front-end-projects-title'>Open Classrooms projects</h2>
-
-            {/* DYNAMIC WAY
-            
-            <div className='project-display-container'>
-                {projects.map((project) => {
-                    const { title, description, img } = project;
-                    return <div className='project-infos'>
-                        <h3 className='project-title'>{title}</h3>
-                        <p className='project-description'>{description}</p>
-                        <div className='project-image' src={img} />
-                    </div>
-                })} */}
 
             <div className='project-display-container'>
 
@@ -35,11 +23,10 @@ function Front() {
                     </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>reservia</h3>
-                        <p className='project-description'>projet d'integration HTML et CSS</p>
-                        <img className='project-image' src={reserviaImg} alt="" />
+                        <h3 className='project-title'>API creation</h3>
+                        <p className='project-description'>creating an API with MERN</p>
+                        <img className='project-image' src={apiImg} alt="" />
                     </div>
-
 
                 </div>
 
@@ -52,16 +39,12 @@ function Front() {
                     </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>ohmyfood</h3>
-                        <p className='project-description'>projet d'integration HTML, SCSS et animations</p>
-                        <img className='project-image' src={ohmyfoodImg} alt="" />
+                        <h3 className='project-title'>entreprise social network</h3>
+                        <p className='project-description'>a full-stack social network using MERN and REACT</p>
+                        <img className='project-image' src={snentrepriseImg} alt="" />
                     </div>
 
-
                 </div>
-
-
-
 
                 <div className='project-infos'>
 
@@ -72,11 +55,10 @@ function Front() {
                     </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>la chouette agence</h3>
-                        <p className='project-description'>optimiser le référencement SEO d'un site existant</p>
-                        <img className='project-image' src={lachouetteagenceImg} alt="" />
+                        <h3 className='project-title'>Python chess organizer</h3>
+                        <p className='project-description'>a chess organizer tournament using Python</p>
+                        <img className='project-image' src={pythontourImg} alt="" />
                     </div>
-
 
                 </div>
 
@@ -88,9 +70,9 @@ function Front() {
                     </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>orinoco</h3>
-                        <p className='project-description'>site de e-commerce en JS</p>
-                        <img className='project-image' src={orinocoImg} alt="" />
+                        <h3 className='project-title'>optimized algorythms</h3>
+                        <p className='project-description'>exploring brute force and optimized solutions</p>
+                        <img className='project-image' src={algoImg} alt="" />
                     </div>
 
 
