@@ -30,7 +30,7 @@ function Reactproject() {
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://github.com/agnestshibangu/42_philosophers"><button className='button'>View the code</button></a>
+                        <a href="https://github.com/agnestshibangu/so_long_new"><button className='button'>View the code</button></a>
                 </div>
 
                     <div className='projects-infos-right'>
