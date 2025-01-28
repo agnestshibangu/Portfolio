@@ -17,7 +17,7 @@ function Reactproject() {
                 <div className='project-infos'>
 
                     <div className='projects-infos-left'>
-                        <a href="https://github.com/agnestshibangu/42_minishell"><button className='button'>See the code</button></a>
+                        <a href="https://github.com/agnestshibangu/42_minishell"><button className='button'>View the code</button></a>
                     </div>
 
                     <div className='projects-infos-right'>
@@ -30,7 +30,7 @@ function Reactproject() {
                 <div className='project-infos project-infos-offset'>
 
                     <div className='projects-infos-left projects-infos-left-offset'>
-                        <a href="https://github.com/agnestshibangu/42_philosophers"><button className='button'>See the code</button></a>
+                        <a href="https://github.com/agnestshibangu/42_philosophers"><button className='button'>View the code</button></a>
                 </div>
 
                     <div className='projects-infos-right'>
@@ -46,7 +46,7 @@ function Reactproject() {
                 <div className='project-infos'>
 
                 <div className='projects-infos-left'>
-                    <a href="https://github.com/agnestshibangu/42_cub3d"><button className='button'>See the code</button></a>
+                    <a href="https://github.com/agnestshibangu/42_cub3d"><button className='button'>View the code</button></a>
                 </div>
 
                 <div className='projects-infos-right'>
