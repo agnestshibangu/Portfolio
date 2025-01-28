@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/front.scss'
 import '../style/sections.scss'
-import aifraudImg from './images/projectsscreen/screenaidetection.png'
+import aifraudGIF from './images/projectsscreen/aifraud.gif'
 import cryptoImg from './images/projectsscreen/screenshotcrypto.png'
 
 function Personalprojects() {
@@ -37,7 +37,7 @@ function Personalprojects() {
                     <div className='projects-infos-right'>
                         <h3 className='project-title'>Fraud detection</h3>
                         <p className='project-description'>Transaction fraud detection using AI</p>
-                        <img className='project-image' src={aifraudImg} alt="" />
+                        <img className='project-image' src={aifraudGIF} alt="" />
                     </div>
 
                 </div>

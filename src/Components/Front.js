@@ -3,7 +3,7 @@ import '../style/front.scss'
 import '../style/sections.scss'
 //import projects from '../Components/data';
 import apiImg from './images/projectsscreen/hot_takes_XL.webp'
-import pythontourImg from './images/projectsscreen/screenshotpythontour.png'
+import chessGIF from './images/projectsscreen/chess.gif'
 import snentrepriseImg from './images/projectsscreen/capture-groupomania.PNG'
 import algoImg from './images/projectsscreen/optialgo.png'
 
@@ -54,7 +54,7 @@ function Front() {
                     <div className='projects-infos-right'>
                         <h3 className='project-title'>Python chess organizer</h3>
                         <p className='project-description'>a chess organizer tournament using Python</p>
-                        <img className='project-image' src={pythontourImg} alt="" />
+                        <img className='project-image' src={chessGIF} alt="" />
                     </div>
 
                 </div>

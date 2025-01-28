@@ -3,7 +3,7 @@ import '../style/sections.scss'
 import minishellImg from './images/projectsscreen/screenshotminishell.png'
 import philoImg from './images/projectsscreen/screenshotphilosophers.png'
 import cub3dGif from './images/projectsscreen/cub3d.gif';
-
+import solongGif from './images/projectsscreen/solong.gif';
 
 function Reactproject() {
     return (
@@ -34,14 +34,15 @@ function Reactproject() {
                 </div>
 
                     <div className='projects-infos-right'>
-                        <h3 className='project-title'>42_philosophers</h3>
-                        <p className='project-description'>synchronization whith multiple processes</p>
-                        <img className='project-image' src={philoImg} alt="" />
+                        <h3 className='project-title'>42_so_long</h3>
+                        <p className='project-description'>a 2D game using minilibx</p>
+                        <img className='project-image' src={solongGif} alt="" />
                     </div>
 
 
                 </div>
 
+            
                 <div className='project-infos'>
 
                 <div className='projects-infos-left'>
@@ -54,6 +55,23 @@ function Reactproject() {
                     <img className='project-image' src={cub3dGif} alt="" />
                 </div>
                 </div> 
+
+                <div className='project-infos project-infos-offset'>
+
+                <div className='projects-infos-left projects-infos-left-offset'>
+                    <a href="https://github.com/agnestshibangu/42_philosophers"><button className='button'>See the code</button></a>
+                </div>
+
+                <div className='projects-infos-right'>
+                    <h3 className='project-title'>42_philosophers</h3>
+                    <p className='project-description'>synchronization whith multiple processes</p>
+                    <img className='project-image' src={philoImg} alt="" />
+                </div>
+
+
+</div>
+
+
 
             </div>
 
