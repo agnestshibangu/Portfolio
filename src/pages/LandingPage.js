@@ -74,7 +74,9 @@ export default function LandingPage() {
       
       <div className='top-page'>
 
+      <div className='parent-glowing'>
         <div className="glowing"></div> 
+      </div>
 
         <div className="name-presentation-box">
           <p className="hello_description">Hello ! I am</p>

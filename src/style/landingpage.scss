@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-html, body {
-    overflow-x: hidden; /* Ensure this applies to both elements */
-    margin: 0; /* Remove any default margin that might push the page */
-}
 
 #scroll-progress {
     width: 0;
@@ -55,8 +51,17 @@ background-color: #4caf50; /* Progress value (Firefox) */
     align-items: center;
 }
 
+.parent-glowing {
+    z-index: 1;
+    width: 100%;
+    //overflow: hidden;
+    position: absolute;
+    height: 400px;
+    margin: 0;
+}
+
 .glowing {
-        position: absolute;
+      //  position: absolute;
         //overflow: hidden;
         overflow-x: hidden;
         z-index:999;
@@ -160,9 +165,10 @@ background-color: #4caf50; /* Progress value (Firefox) */
     margin-right: 5px;
 }
 
-// .name-presentation-box {
-//     margin-left: 50px;
-// }
+.name-presentation-box {
+    margin-left: 50px;
+    z-index: 99;
+}
 
 .letter-container {
     width: fit-content;
