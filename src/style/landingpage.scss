@@ -54,7 +54,7 @@ background-color: #4caf50; /* Progress value (Firefox) */
 .parent-glowing {
     z-index: 1;
     width: 100%;
-    overflow: hidden;
+    //overflow: hidden;
     position: absolute;
     height: 400px;
     margin: 0;
@@ -63,9 +63,6 @@ background-color: #4caf50; /* Progress value (Firefox) */
 }
 
 .glowing {
-      //  position: absolute;
-        //overflow: hidden;
-        overflow-x: hidden;
         z-index:999;
         top: -560px;
         left: -250px;
