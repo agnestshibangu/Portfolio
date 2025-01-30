@@ -58,6 +58,8 @@ background-color: #4caf50; /* Progress value (Firefox) */
     position: absolute;
     height: 400px;
     margin: 0;
+    top: -572px;
+    left: -185px;
 }
 
 .glowing {
@@ -343,8 +345,13 @@ $anim-delay : 0.2s;
         transform: translate(-50%, -50%);
 
         will-change: transform; 
-      }
+    }
 
+    .parent-glowing
+    {
+        top: 0;
+        left: 0;
+    }
 
     .main {
         align-items: center;
