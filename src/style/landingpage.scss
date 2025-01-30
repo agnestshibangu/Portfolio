@@ -51,25 +51,57 @@ background-color: #4caf50; /* Progress value (Firefox) */
     align-items: center;
 }
 
+.glowing {
+        position: absolute;
+        z-index:999;
+        top: -560px;
+        left: -250px;
+        width: 800px;
+        height: 800px;
+        border-radius: 50%;
+        box-shadow:
+          inset 0 0 50px #fff,
+          inset 20px 0 80px #2a9b30,
+          inset -20px 0 80px rgb(102, 212, 80),
+          inset 20px 0 300px #2a9b30,
+          inset -20px 0 300px rgb(105, 224, 81),
+          0 0 50px #fff,
+          -10px 0 80px #2a9b30,
+          10px 0 80px rgb(111, 226, 88);
+}
+
+
 .vertical-line {
     z-index: 10;
     position: absolute;
-    width: 15%;
+    width: 10px;
     height: 250%;
-    background-color: #fedc9f;
-
+    background-color: rgb(78, 184, 57); /* Bright green */
+    
+    /* Outer glow effect */
+    box-shadow: 
+        0 0 5px 1px rgb(78, 184, 57), /* Soft glow */
+        0 0 6px 3px rgb(78, 184, 57); /* More diffused glow */
 }
 
 .vertical-line-round {
-    width: 75px;
-    height: 75px;
-    background-color: #fedc9f;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    //background-color: #fedc9f;
+    background-color: rgb(78, 184, 57);
+    // box-shadow: 
+    //     0 0 80px rgb(102, 212, 80),  /* Inner glow */
+    //     0 0 80px rgb(102, 212, 80);
+    box-shadow: 
+        0 0 5px 1px rgb(78, 184, 57),  /* Soft glow */
+        0 0 6px 3px rgb(78, 184, 57); /* More diffused glow */
     border-radius: 50%;
     position: absolute;
 }
 
 .round1 {
-    margin-top: 280px;
+    margin-top: 350px;
 }
 
 .round2 {
@@ -160,21 +192,30 @@ background-color: #4caf50; /* Progress value (Firefox) */
 
 
 
-.job-description {
+.job-description, .hello_description {
     font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
     color: #fedc9f;
     letter-spacing: 0.5rem;
 }
 
+.job-description {
+    font-size: 25px;
+}
+
+
+
 .underscore-animated {
-    width: 14px;
-    height: 1.8px;
+    width: 20px;
+    height: 4px;
     background-color: #fedc9f;
-    margin-top: 31px;
+    margin-top: 50px;
     animation: underscore 1s linear;
     animation-iteration-count: infinite;
-    animation-delay: 2s;
-    margin-right: 10px;
+    animation-delay: 3s;
+    margin-left: 10px;
+   // margin-right: 5px;
 }
 
 @keyframes underscore {
@@ -253,6 +294,13 @@ $anim-delay : 0.2s;
     .main {
         margin-left: 6vh;
     }
+
+    .hello_description {
+        font-size: 20px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+    }
 }
 
 
@@ -277,11 +325,27 @@ $anim-delay : 0.2s;
         flex-direction: column;
         align-items: center;
     }
+
+    .last-name
+    {
+        margin-left: 0;
+    }
+
+    .hello_description {
+        font-size: 25px;
+        font-weight: 900;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+    }
+
+    .glowing {
+        top: -35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
-
-
-
-
 
 @media (max-width: 768px) {
 
@@ -325,6 +389,13 @@ $anim-delay : 0.2s;
     .job-description {
         font-size: 12px;
         text-align: center;
+    }
+
+    .hello_description {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .underscore-animated {
@@ -373,6 +444,7 @@ $anim-delay : 0.2s;
     .job-description {
         font-size: 8px;
         text-align: center;
+        margin-top: 12px;
     }
 
     .underscore-animated {
@@ -382,7 +454,7 @@ $anim-delay : 0.2s;
     // .last-name {
     //     margin-left: 15px;
     // }
-
+   
     .page-body {
         margin-top: auto;
         

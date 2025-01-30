@@ -14,6 +14,7 @@ import Front from '../Components/Front'
 import Reactproject from '../Components/Reactproject'
 import Contact from '../Components/Contact'
 import Personalprojects from '../Components/Personalprojects'
+import ScrollDownButton from '../Components/Scrolldown'
 
 
 // scroll bar animation //
@@ -73,7 +74,10 @@ export default function LandingPage() {
       
       <div className='top-page'>
 
+        <div className="glowing"></div>
+
         <div className="name-presentation-box">
+          <p className="hello_description">Hello ! I am</p>
           <div className="letter-container">
             <div className='first-name group-name'>
               <img alt="" src={LetterA} className="letter anim-14" />
@@ -97,8 +101,9 @@ export default function LandingPage() {
 
           </div>
           <div className="description-box">
+            {/* //<p className="job-description">Software Engineer</p> */}
+            <p className="job-description">Full-Stack Dev | Python & C</p>
             <div className='underscore-animated' />
-            <p className="job-description">Tech driven career portfolio</p>
 
           </div>
 
@@ -119,6 +124,7 @@ export default function LandingPage() {
 
       </div>
 
+      <ScrollDownButton />
 
       <div className='main'>
 
