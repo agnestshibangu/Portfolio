@@ -53,6 +53,8 @@ background-color: #4caf50; /* Progress value (Firefox) */
 
 .glowing {
         position: absolute;
+        //overflow: hidden;
+        overflow-x: hidden;
         z-index:999;
         top: -560px;
         left: -250px;
