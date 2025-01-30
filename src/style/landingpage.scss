@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 
+
 #scroll-progress {
     width: 0;
     background-color: #fedc9f;   
@@ -71,6 +72,7 @@ background-color: #4caf50; /* Progress value (Firefox) */
           -10px 0 80px #2a9b30,
           10px 0 80px rgb(111, 226, 88);
 }
+
 
 
 .vertical-line {
@@ -309,6 +311,30 @@ $anim-delay : 0.2s;
 
 
 @media (max-width: 1020px) {
+
+    .glowing {
+        position: absolute;
+        overflow: hidden;
+        z-index: 999;
+        width: 800px;
+        height: 800px;
+        border-radius: 50%;
+        box-shadow:
+          inset 0 0 50px #fff,
+          inset 20px 0 80px #2a9b30,
+          inset -20px 0 80px rgb(102, 212, 80),
+          inset 20px 0 300px #2a9b30,
+          inset -20px 0 300px rgb(105, 224, 81),
+          0 0 50px #fff,
+          -10px 0 80px #2a9b30,
+          10px 0 80px rgb(111, 226, 88);
+      
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+
     .main {
         align-items: center;
         margin: 0 auto;
