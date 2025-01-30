@@ -322,7 +322,6 @@ $anim-delay : 0.2s;
 
     .glowing {
         position: absolute;
-        overflow: hidden;
         z-index: 999;
         width: 800px;
         height: 800px;
@@ -346,6 +345,7 @@ $anim-delay : 0.2s;
 
     .parent-glowing
     {
+        overflow: hidden;
         top: 0;
         left: 0;
     }
