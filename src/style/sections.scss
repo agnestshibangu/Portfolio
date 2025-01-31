@@ -27,6 +27,7 @@
 }
 
 .about-section {
+    font-weight: 900;
     line-height: 2rem;
     font-size: 18px;
     color: #fedc9f;
@@ -45,9 +46,7 @@
     text-align: end;
 }
 
-.ft-title {
-    margin-top: 0;
-}
+
 .project-display-container {
     display: flex;
     flex-direction: column;
@@ -131,9 +130,9 @@
         text-align: center;
     }
 
-    .ft-title {
-        margin-top: 0;
-    }
+    // .ft-title {
+    //     margin-top: 0;
+    // }
 
     .name-presentation-box {
         margin: 335px auto 0px;

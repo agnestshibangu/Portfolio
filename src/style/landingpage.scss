@@ -437,6 +437,13 @@ $anim-delay : 0.2s;
     }
 }
 
+@media (max-width: 908px) {
+
+    .underscore-animated {
+        display: none
+    }
+}
+
 @media (max-width: 768px) {
 
     .main {
@@ -450,6 +457,11 @@ $anim-delay : 0.2s;
 
     .name-presentation-box {
         margin-left: 0;
+    }
+
+    .description-box {
+        justify-content: center;
+        align-items: center;
     }
 
     .page-body {
@@ -488,9 +500,6 @@ $anim-delay : 0.2s;
         align-items: center;
     }
 
-    .underscore-animated {
-        display: none
-    }
 
     .letter-container {
         align-items: center;

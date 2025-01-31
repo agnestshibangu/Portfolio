@@ -15,6 +15,7 @@ import Reactproject from '../Components/Reactproject'
 import Contact from '../Components/Contact'
 import Personalprojects from '../Components/Personalprojects'
 import ScrollDownButton from '../Components/Scrolldown'
+import AboutMePage from '../Components/AboutMePage'
 import Profilphoto from '../Components//images/projectsscreen/photoprofil.png'
 
 
@@ -113,14 +114,7 @@ export default function LandingPage() {
             <img alt="" src={Profilphoto} className="profil-photo" />
           </div>
 
-          <div className='about-me-box'>
-            <h1 className='about-me-title'>About me</h1>
-            <p className='about-me-section'>
-              Formally trained in web development,, I am now nearing the end of my core curriculum
-              at 42, where I developed a strong passion for back-end programming. Through personal 
-              projects, I continue to enhance my skills and tackle new challenges !
-            </p>
-          </div>
+          
 
 
         </div>
@@ -142,6 +136,8 @@ export default function LandingPage() {
       <ScrollDownButton />
 
       <div className='main'>
+
+        <AboutMePage />
 
         <Reactproject />
 
