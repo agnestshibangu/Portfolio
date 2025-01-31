@@ -11,6 +11,15 @@ function Reactproject() {
 
             <h2 className='front-end-projects-title'>42 School projects</h2>
 
+            <div className='about-section-box'>
+                <p className='about-section'>
+                    School 42 is a highly respected tuition-free, peer-to-peer coding school with a project-based curriculum. 
+                    Students learn C, C++, Python, JavaScript, and Shell scripting, gaining problem-solving, 
+                    algorithm design, and software development skills. The program fosters autonomy, teamwork, and adaptability, 
+                    preparing graduates for careers in software engineering, AI, cybersecurity, and full-stack development.
+                </p>
+            </div>
+
 
             <div className='project-display-container'>
 

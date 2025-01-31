@@ -9,6 +9,16 @@ function Personalprojects() {
         <div className='section'>
             <h2 className='front-end-projects-title'>Personal projects</h2>
 
+            <div className='about-section-box'>
+                <p className='about-section'>
+                I am passionate about learning new skills and staying updated with the latest technologies.
+                I take pride in my personal projects, which showcase my commitment to growth and innovation. 
+                Currently, I'm working on an AI-powered transaction fraud detection application, exploring advanced machine learning techniques. Additionally, I continuously challenge myself on platforms like TryHackMe to improve my cybersecurity skills, 
+                ensuring I remain adaptable in a fast-evolving tech landscape.
+                </p>
+            </div>
+            
+            
             <div className='project-display-container'>
 
                 <div className='project-infos'>

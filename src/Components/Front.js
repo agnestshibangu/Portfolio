@@ -12,6 +12,14 @@ function Front() {
         <div className='section'>
             <h2 className='front-end-projects-title'>Open Classrooms projects</h2>
 
+            <div className='about-section-box'>
+                <p className='about-section'>
+                OpenClassrooms is a recognized online education platform that prepared me well for real-world jobs in
+                web development and Python. Through hands-on projects, expert mentorship, and flexible learning, 
+                I gained practical coding skills and job-ready experience in full-stack development and data science.
+                </p>
+            </div>
+            
             <div className='project-display-container'>
 
                 <div className='project-infos'>

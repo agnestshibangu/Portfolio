@@ -106,8 +106,9 @@ export default function LandingPage() {
             {/* //<p className="job-description">Software Engineer</p> */}
             <p className="job-description">Full-Stack Dev | Python & C</p>
             <div className='underscore-animated' />
-
           </div>
+
+          <div className='profil-photo-box'></div>
 
 
         </div>
