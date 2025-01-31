@@ -9,7 +9,8 @@ function Reactproject() {
     return (
         <div className='section'>
 
-            <h2 className='front-end-projects-title'>42 School projects</h2>
+            <h2 className='front-end-projects-title ft-title'>42 School projects</h2>
+            <h3 className='duration'>(November 2023 - until now) </h3>
 
             <div className='about-section-box'>
                 <p className='about-section'>

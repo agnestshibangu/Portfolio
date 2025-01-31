@@ -11,6 +11,8 @@ function Front() {
     return (
         <div className='section'>
             <h2 className='front-end-projects-title'>Open Classrooms projects</h2>
+            <h3 className='duration'>Web development    (Februrary - October 2021 / 9 months) </h3>
+            <h3 className='duration'>Python    (March - August 2023 / 6 months) </h3>
 
             <div className='about-section-box'>
                 <p className='about-section'>

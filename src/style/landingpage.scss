@@ -42,7 +42,7 @@ background-color: #4caf50; /* Progress value (Firefox) */
 .vertical-box {
     position: absolute;
     top: 0;
-    left: 80%;
+    left: 90%;
     width: 100px;
     height: 958vh;
     background-color: black;
@@ -112,23 +112,23 @@ background-color: #4caf50; /* Progress value (Firefox) */
 }
 
 .round1 {
-    margin-top: 350px;
+    margin-top: 355px;
 }
 
 .round2 {
-    margin-top: 745px;
+    margin-top:  1268px;
 }
 
 .round3 {
-    margin-top: 3411px;
+    margin-top: 3680px;
 }
 
 .round4 {
-    margin-top: 6071px;
+    margin-top: 6100px;
 } 
 
 .round5 {
-    margin-top: 7629px;
+    margin-top: 7605px;
 }
 
 .active {
@@ -167,6 +167,7 @@ background-color: #4caf50; /* Progress value (Firefox) */
 .name-presentation-box {
     margin-left: 50px;
     z-index: 99;
+    width: 80%;
 }
 
 .letter-container {
@@ -204,12 +205,24 @@ background-color: #4caf50; /* Progress value (Firefox) */
 
 
 
-.job-description, .hello_description {
+.job-description, .hello_description,  .about-me-title {
     font-family: 'Orbitron', sans-serif;
     font-weight: 900;
     font-size: 35px;
     color: #fedc9f;
     letter-spacing: 0.5rem;
+}
+
+.about-me-box {
+    width: 75%;
+    margin-top: 120px;
+    line-height: 2rem;
+}
+
+.about-me-section {
+    color: #fedc9f;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .job-description {
@@ -249,7 +262,7 @@ background-color: #4caf50; /* Progress value (Firefox) */
 }
 
 .name-presentation-box {
-    width: fit-content;
+    width: 80%;
     height: fit-content;
     margin-top: 300px;
 }
@@ -300,6 +313,13 @@ $anim-delay : 0.2s;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-top: 20px;
+}
+
+.profil-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /////////////// responsive ////////////////////
@@ -307,7 +327,7 @@ $anim-delay : 0.2s;
 
 @media (max-width: 1370px) {
     .vertical-box {
-        left: 85%;
+        left: 90%;
     }
 
     .main {
@@ -322,6 +342,11 @@ $anim-delay : 0.2s;
     }
 }
 
+// @media (max-width: 1500px) {
+//     .vertical-box {
+//         display: none;
+//     }
+// }
 
 
 
@@ -398,6 +423,17 @@ $anim-delay : 0.2s;
         margin: auto;
         width: 70px;
         height: 70px;
+        margin-top: 40px;
+    }
+
+    .about-me-box {
+        margin-top: 100px;
+        width: 100%;
+
+    }
+
+    .about-me-title, .about-me-section {
+        text-align: center;
     }
 }
 
